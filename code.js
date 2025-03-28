@@ -7,6 +7,9 @@ function shift(array,left,right) {
 }
 function mergeSort(array){
     var end =array.length-1
+    if(array.length<=1){
+        return array;
+    }
     for(var n=1; n<array.length; n*=2){
         for(var m=0;m<array.length-1;m+=2*n){
             var left=m;
