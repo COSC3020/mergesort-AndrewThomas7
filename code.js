@@ -6,7 +6,7 @@ function shift(array,left,right) {
 
 }
 
-function mergeSort(array) {
+function mergesort(array) {
     var end = array.length - 1
     if(array.length<=1){
         return array;
