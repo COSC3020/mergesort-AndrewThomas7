@@ -17,6 +17,11 @@ function mergesort(array){
                     var temp=array[right];
                     shift(array,left,right);
                     array[left]=temp;
+                    if(m==0){
+                        left+=1;
+                        right+=1;
+                        mid+=1;
+                    }
                         left+=m;
                         right+=m;
                         mid+=1;
