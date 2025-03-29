@@ -5,6 +5,7 @@ function shift(array,left,right) {
     return array;
 
 }
+
 function mergesort(array){
     var end =array.length-1
     for(var n=1; n<array.length; n*=2){
@@ -25,6 +26,9 @@ function mergesort(array){
                         left+=m;
                         right+=m;
                         mid+=1;
+                }
+                else if(array[left]==array[right]){
+                        right+=1
                 }
                 else{
                     left+=1;
