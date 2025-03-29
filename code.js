@@ -5,7 +5,7 @@ function shift(array,left,right) {
     return array;
 
 }
-function mergeSort(array){
+function mergesort(array){
     var end =array.length-1
     for(var n=1; n<array.length; n*=2){
         for(m=0;m<array.length;m++){
@@ -25,11 +25,6 @@ function mergeSort(array){
                     left+=1;
                 }
         }
-        }
-    }
-    return array;
-}
-            }
         }
     }
     return array;
