@@ -6,7 +6,7 @@ function shift(array,left,right) {
 
 }
 
-function mergesort(array) {
+function mergeSort(array) {
     var end = array.length - 1
     if(array.length<=1){
         return array;
@@ -49,14 +49,9 @@ function mergesort(array) {
                     var temp = array[right];
                     shift(array, left, right);
                     array[left] = temp;
-                    if (j == 0) {
                         left += 1;
                         right += 1;
                         mid += 1;
-                    }
-                    left += j;
-                    right += j;
-                    mid += 1;
                 }
             else{
                 left+=1;
