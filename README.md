@@ -44,4 +44,4 @@ That being said we now have some context for what the first two for loops are do
 
 Now looking at the merge step, which is nested inside the inner loop: The merge function runs a while loop until the right subarray's pointer is less than the next step, which in this case is only one step. This yields a time comlexity of at most $n-2=n=O(n)$ It then runs a shift function, to help sort the elements. The shift function in this case also loops through the array and thus also has a complexity of $O(n)$. This whole process would be $n\cdot n=n^2$= $O(n^2)$
 
-Then overall we have $$log(n)\cdot (n^2)=n^2log(n)=O(n^2log(n))$$
+Then overall we have $$log(n)\cdot (n^2)=n^2log(n)=\Theta(n^2log(n))$$
