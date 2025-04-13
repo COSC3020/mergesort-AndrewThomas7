@@ -26,6 +26,8 @@ suspected, charges may be filed against me without prior notice.”-Andrew Thoma
 iter=end; // } while (left <= mid&&right<=end) { if (array[left] > array[right]) { for (i = right; i > left; i--) { var temp = array[i]; array[i] = array[i - 1] array[i - 1] = temp; } right += 1; } left += 1; } return array; }Don't give me code just help me understand what to do
 
 #5- Worked alongside Ivan Matrin.
+
+#6-https://www.baeldung.com/cs/height-balanced-tree
 ## Runtime Analysis
 
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
