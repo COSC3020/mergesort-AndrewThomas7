@@ -9,6 +9,11 @@ Hint: To make merge sort in-place, think about what happens during the merge --
 where are elements moved to and from? To make it iterative, think about the
 part of the array each recursive call considers.
 
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”-Andrew Thomas
+
 ## Sources
 #1-https://www.youtube.com/watch?v=W2rU3dquXAc
 
