@@ -15,19 +15,19 @@ otherwise. I am aware that plagiarism carries severe penalties and that if plagi
 suspected, charges may be filed against me without prior notice.”-Andrew Thomas
 
 ## Sources
-#1-https://www.youtube.com/watch?v=W2rU3dquXAc
+#1-https://www.youtube.com/watch?v=W2rU3dquXAc- This is a video on how to implement an iterative merge-sort, I watched it in order to better understand what to do, but didn't take any code explicitly from the video
 
-#2-https://www.youtube.com/watch?v=mxfS1UDSiiw
+#2-https://www.youtube.com/watch?v=mxfS1UDSiiw-Another video on how to implement Iterative merge sort, againI watched this in order to get a better understanding of what to do. But also didn't take any code from this implementation
 
-#3-https://www.baeldung.com/cs/merge-sort-in-place
+#3-https://www.baeldung.com/cs/merge-sort-in-place- An article on how to implement iterative and in-place merge sort. I took some insperation from this in my implementation, specifically I treated everything as subarrays and built up to the final array. This is where I learned about treating the problem in this way
 
 #4- Chat GPT Querey-"Im trying to make an inplace merge function in javascript, how am I doing?function Merge(array,left,mid,right){ var end = array.length - 1 var iter=mid; // if(right==mid+1){ // 
 
 iter=end; // } while (left <= mid&&right<=end) { if (array[left] > array[right]) { for (i = right; i > left; i--) { var temp = array[i]; array[i] = array[i - 1] array[i - 1] = temp; } right += 1; } left += 1; } return array; }Don't give me code just help me understand what to do
 
-#5- Worked alongside Ivan Matrin.
+#5- Worked alongside Ivan Matrin.- We came up with our final implementation together in-pusdo code but did our final code seperate.
 
-#6-https://www.baeldung.com/cs/height-balanced-tree
+#6-https://www.baeldung.com/cs/height-balanced-tree-This is an article on the time complexity of a balanced binary tree, I used this as review to figure out time complexity
 
 #7- https://github.com/COSC3020/mergesort-DJReflexive-Looked here for help with getting my time complexity correct
 ## Runtime Analysis
