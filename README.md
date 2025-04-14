@@ -30,6 +30,8 @@ iter=end; // } while (left <= mid&&right<=end) { if (array[left] > array[right])
 #6-https://www.baeldung.com/cs/height-balanced-tree-This is an article on the time complexity of a balanced binary tree, I used this as review to figure out time complexity
 
 #7- https://github.com/COSC3020/mergesort-DJReflexive-Looked here for help with getting my time complexity correct
+
+Note: All sources listed contriubted to my understanding in concept and I used similar methods to some of what is listed but all \\ final work is that of mine and Ivans togethers and we did not explciitly take code from any source.
 ## Runtime Analysis
 
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
